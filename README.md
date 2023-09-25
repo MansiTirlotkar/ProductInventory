@@ -1,1 +1,1 @@
-# ProductInventory
+# ProductInventory application by using angular
