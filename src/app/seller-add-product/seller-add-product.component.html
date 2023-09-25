@@ -1,0 +1,30 @@
+<div class="add-products">
+    <h1>Add New Product</h1>
+    <p class="message-p">{{addProductMessage}}</p>
+    <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)" class="common-form">
+
+        <input type="text" class="form-input" name="name" placeholder="Enter Product Name" ngModel #name="ngModel" required />
+        <p class="invalid-input"><span *ngIf="name.invalid && name.touched">Please Enter Valid Product Name</span></p>
+
+        <input type="text" class="form-input" name="price" placeholder="Enter Product Price" ngModel #price="ngModel" required />
+        <p class="invalid-input"><span *ngIf="price.invalid && price.touched">Please Enter Valid Product Price</span></p>
+
+        <input type="text" class="form-input" name="color" placeholder="Enter Product Color" ngModel #color="ngModel" required />
+        <p class="invalid-input"><span *ngIf="color.invalid && color.touched">Please Enter Valid Product Color</span></p>
+
+        <input type="text" class="form-input" name="category" placeholder="Enter Product Category" ngModel #category="ngModel" required />
+        <p class="invalid-input"><span *ngIf="category.invalid && category.touched">Please Enter Valid Product Category</span></p>
+
+        <textarea type="text" class="form-input" name="description" placeholder="Enter Product Description "
+            ngModel minlength="5" maxlength="100" #description="ngModel" required></textarea>
+            <p class="invalid-input"><span *ngIf="description.invalid && description.touched">Please Enter Valid Product Description</span></p>
+
+        <input type="text" class="form-input" name="image" placeholder="Enter Product Image URL" ngModel #image="ngModel" required />
+        <p class="invalid-input"><span *ngIf="image.invalid && image.touched">Please Enter Valid Image URL</span></p>
+
+        <button [disabled]="addProduct.invalid" class="form-button">Add Product</button>
+
+
+
+    </form>
+</div>
