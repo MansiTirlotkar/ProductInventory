@@ -1,0 +1,162 @@
+{
+  "seller": [
+    {
+      "name": "Heeta Tirlotkar",
+      "email": "Heeta@seller.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "Sayali Tirlotkar",
+      "email": "Sayali@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "Mansi Tirlotkar",
+      "password": "abc@123",
+      "email": "mansi@seller.com",
+      "id": 3
+    },
+    {
+      "name": "Pradnya Tirlotkar",
+      "password": "abc@123",
+      "email": "pradnya@seller.com",
+      "id": 4
+    },
+    {
+      "name": "Heeta Tirlotkar",
+      "email": "Heeta@seller.com",
+      "password": "abc@123",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "Asus",
+      "price": "50000",
+      "category": "Laptop",
+      "color": "Black",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/1/EX/AY/HB/8118327/asus-vivo-book-15-x515ja-ej501t-laptop-500x500.jpg",
+      "description": "It is an Asus product",
+      "id": 9
+    },
+    {
+      "name": "HP Laptop",
+      "price": "20000",
+      "color": "black",
+      "category": "Laptop",
+      "description": " Hp Laptop  for student and professionals",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "id": 10
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "3000",
+      "category": "Shoes",
+      "color": "Black",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
+      "description": "Best shoes for running",
+      "id": 12
+    },
+    {
+      "name": "Dell",
+      "price": "32000",
+      "category": "Laptop",
+      "color": "Grey",
+      "image": "http://5.imimg.com/data5/AI/GS/BQ/SELLER-61939349/hp-laptop-500x500.jpg",
+      "description": "It is a dell product",
+      "id": 13
+    },
+    {
+      "name": "Truck",
+      "price": "500",
+      "category": "Toy",
+      "color": "Red",
+      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
+      "description": "It is a soft-toy",
+      "id": 14
+    },
+    {
+      "name": "Apple 14",
+      "price": "56000",
+      "color": "pink",
+      "category": "mobile",
+      "description": "It is an apple product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": 15
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "999",
+      "color": "Blue",
+      "category": "Clothes",
+      "description": "It's a levies man's jeans",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "id": 16
+    },
+    {
+      "name": "Noise smart watch",
+      "price": "1500",
+      "color": "white",
+      "category": "watch",
+      "description": "It is a noise smart watch",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
+      "id": 17
+    }
+  ],
+  "users": [
+    {
+      "name": "anil",
+      "email": "anil@user.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "tony",
+      "email": "tony@user.com",
+      "password": "abc@123",
+      "id": 3
+    },
+    {
+      "name": "madhuja",
+      "email": "madhuja@user.com",
+      "password": "abc@123",
+      "id": 4
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "email": "tony@user.com",
+      "address": "Sarita Sadan, Mumbai",
+      "contact": "1234561234",
+      "totalPrice": 7004100,
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "email": "tony@user.com",
+      "address": "Sarita Sadan, Mumbai",
+      "contact": "1234512345",
+      "totalPrice": 7000100,
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "email": "anil@user.com",
+      "address": "Mauli Desire 2, Mumbai",
+      "contact": "1234567892",
+      "totalPrice": 156100,
+      "userId": 1,
+      "imageUrl": "",
+      "id": 7
+    }
+  ]
+}
